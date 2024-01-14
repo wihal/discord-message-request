@@ -1,6 +1,4 @@
-## OperaGX Promo Generator
-
-### Discord message request
+## Discord message request
 A basic script for sending messages as requests, with an authorisation token and channel ID(s) as input
 
 ### How to Use
