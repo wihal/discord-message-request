@@ -21,6 +21,17 @@ A basic script for sending messages as requests, with an authorisation token and
    ```bash
    python main.py
    ```
+   
+## Star History
+
+<a href="https://star-history.com/#wihal/discord-message-request&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wihal/discord-message-request&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wihal/discord-message-request&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wihal/discord-message-request&type=Date" />
+  </picture>
+</a>
+
 
 ### Important Information
 - This script should only be used for educational purposes.
