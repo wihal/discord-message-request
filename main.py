@@ -281,6 +281,17 @@ def start():
     header_content = load_headers(resource_path("src\\" + headers_file_name + ".txt"))
 
     main(group_name, time_interval, header_content)
+
+def account():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    print("How to add a new account?")
+
+    console_line()
+
+    print("A Tutorial can be found here: \nhttps://github.com/wihal/discord-message-request/tree/main?tab=readme-ov-file#how-to-add-an-account")
+    group_name = input("\nType anything to return: ")
+    
     
 def load():
     sleep(1.5) # Unnötig aber sieht cool aus
@@ -314,16 +325,10 @@ def load():
         elif to == "append" or to == "ap":
             append()
         elif to == "account" or to == "ac":
-            append()
+            account()
         else:
             print("invalid input")
             pass
-
-def account():
-    print("how to add a new account")
-    console_line()
-    print("1. create a new .txt file in the src folder (the name of the file is also the name of the account)")
-    print("2. copy a message request using the network tool of your browser")
     
 def check():
     # Prüfung ob src/ Vorhanden ist
